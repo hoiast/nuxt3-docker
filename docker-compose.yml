@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  nuxt:
+    container_name: nuxt3
+    build: ./app # Build app image following Dockerfile instructions.
+    ports:
+      - "3000:3000" # Publish container port to host port.
+    volumes:
+      - ./app:/nuxt3 # Sync local files and container files 
+      - /nuxt3/node_modules/ # Prevent sync of node_modules folder. It avoids OS issues when building this app and its dependencies locally. Please note, that building this app locally isn't necessary to run it in a container, but it is still possible.
