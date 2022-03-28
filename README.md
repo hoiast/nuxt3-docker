@@ -1,6 +1,6 @@
-# Nuxt 3 Docker
+# Nuxt 3 Docker 
 
-A minimal set for developing a [Nuxt 3](https://v3.nuxtjs.org/docs) app using [Docker](https://docs.docker.com/). 
+A minimal set for developing a [Nuxt 3](https://v3.nuxtjs.org/docs) app using [Docker](https://docs.docker.com/) in a WSL environment. Despite the little twerks to prevent WSL issues, this minimal set is perfectly suitable for developing under "pure" Linux environments.
 
 This repo is built upon a [minimal set for Nuxt 3](https://v3.nuxtjs.org/getting-started/installation) and includes a Dockerfile and a docker-compose.yml. These files are used to setup an image and a container, respectively.
 
